@@ -1,0 +1,18 @@
+externals:
+  Lib/LibStub: https://repos.wowace.com/wow/libstub/trunk
+  Lib/CallbackHandler-1.0: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+  Lib/AceAddon-3.0: https://repos.wowace.com/wow/ace3/trunk/AceAddon-3.0
+  Lib/AceConsole-3.0: https://repos.wowace.com/wow/ace3/trunk/AceConsole-3.0
+  Lib/AceDB-3.0: https://repos.wowace.com/wow/ace3/trunk/AceDB-3.0
+  Lib/AceDBOptions-3.0: https://repos.wowace.com/wow/ace3/trunk/AceDBOptions-3.0
+  Lib/AceConfig-3.0: https://repos.wowace.com/wow/ace3/trunk/AceConfig-3.0
+  Lib/AceGUI-3.0: https://repos.wowace.com/wow/ace3/trunk/AceGUI-3.0
+  Lib/LibDataBroker-1.1: https://repos.wowace.com/wow/libdatabroker-1-1/trunk
+  Lib/LibDBIcon-1.0: https://repos.wowace.com/wow/libdbicon-1-0/trunk
+
+ignore:
+  - .gitignore
+  - .pkgmeta
+  - README.md
+  - LICENSE
+  - .github
