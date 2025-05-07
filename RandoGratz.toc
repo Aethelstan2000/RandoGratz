@@ -1,0 +1,37 @@
+## Interface: 40400
+## Title: RandoGratz
+## Author: David Ward
+## Version: 1.1
+## SavedVariables: RandoGratzDB
+
+# --- Libraries (must be loaded in order) ---
+Lib/LibStub/LibStub.lua
+Lib/CallbackHandler-1.0/CallbackHandler-1.0.lua
+Lib/AceGUI-3.0/AceGUI-3.0.lua 
+Lib/AceAddon-3.0/AceAddon-3.0.lua
+Lib/AceConsole-3.0/AceConsole-3.0.lua
+Lib/AceDB-3.0/AceDB-3.0.lua
+Lib/AceDBOptions-3.0/AceDBOptions-3.0.lua
+
+Lib/AceConfig-3.0/AceConfigRegistry-3.0/AceConfigRegistry-3.0.lua
+Lib/AceConfig-3.0/AceConfigCmd-3.0/AceConfigCmd-3.0.lua
+Lib/AceConfig-3.0/AceConfigDialog-3.0/AceConfigDialog-3.0.lua
+Lib/AceConfig-3.0/AceConfig-3.0.lua
+
+# Optional: LibDBIcon and LDB if you're using minimap icon support
+Lib/LibDataBroker-1.1/LibDataBroker-1.1.lua
+Lib/LibDBIcon-1.0/LibDBIcon-1.0.lua
+
+# You can add individual widget files if needed, e.g.:
+Lib/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua
+Lib/AceGUI-3.0/widgets/AceGUIWidget-Button.lua
+Lib/AceGUI-3.0/widgets/AceGUIWidget-CheckBox.lua
+Lib/AceGUI-3.0/widgets/AceGUIWidget-DropDown.lua
+Lib/AceGUI-3.0/widgets/AceGUIWidget-EditBox.lua
+Lib/AceGUI-3.0/widgets/AceGUIWidget-Label.lua
+Lib/AceGUI-3.0/widgets/AceGUIWidget-Slider.lua
+
+# --- Main addon files ---
+RandoGratz.lua
+RandoGratzFrame.lua
+RandoGratzMinimap.lua
