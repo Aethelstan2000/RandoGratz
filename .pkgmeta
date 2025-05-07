@@ -16,3 +16,6 @@ ignore:
   - README.md
   - LICENSE
   - .github
+
+manual-changelog:
+  filename: CHANGELOG.md
