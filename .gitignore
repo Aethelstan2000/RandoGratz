@@ -1,1 +1,24 @@
+# Ignore libraries (handled via .pkgmeta)
 Lib/
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.log
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+# Project metadata
+*.toc.bak
+*.lua.bak
