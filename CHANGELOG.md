@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.2.1 - 2025-05-08
+- Changed autogratz cooldown to not trigger if the player owns the current achievement
+- Attempting to get auto packaging working between Curse and Github
+
 ## v1.2.0 - 2025-05-07
 - Set up automatic packaging with `.pkgmeta`
 - Removed embedded libraries from the repository (now handled via WowAce externals)
