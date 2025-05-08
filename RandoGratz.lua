@@ -91,12 +91,14 @@ eventFrame:SetScript("OnEvent", function(_, event, _, sender)
         --print("|cffff0000[DEBUG]|r AutoGratz is on cooldown! Skipping message.")
         return
     end
-    lastGratzTime = currentTime
+
 
     local playerName = UnitName("player"):match("^(%S+)") or ""
     sender = sender:match("^(.-)-") or sender
     if sender == playerName then return end
 
+    lastGratzTime = currentTime
+    
     local delay = math.random(1, 5)
     C_Timer.After(delay, function()
         if #RandoGratzDB.messages > 0 then
